@@ -1,7 +1,7 @@
 package us.codecraft.tinyioc.aop;
 
 /**
- * @author yihua.huang@dianping.com
+ * @author
  */
 public abstract class AbstractAopProxy implements AopProxy {
 
