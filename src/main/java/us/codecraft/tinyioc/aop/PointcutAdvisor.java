@@ -1,9 +1,13 @@
 package us.codecraft.tinyioc.aop;
 
 /**
- * @author yihua.huang@dianping.com
+ * 切点通知器
  */
-public interface PointcutAdvisor extends Advisor{
+public interface PointcutAdvisor extends Advisor {
 
-   Pointcut getPointcut();
+    /**
+     * 获得切点
+     */
+    Pointcut getPointcut();
+
 }

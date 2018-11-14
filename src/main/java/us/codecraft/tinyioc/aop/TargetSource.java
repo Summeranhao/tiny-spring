@@ -2,10 +2,11 @@ package us.codecraft.tinyioc.aop;
 
 /**
  * 被代理的对象
- * @author
+ * 封装被代理的对象的类的相关信息
  */
 public class TargetSource {
 
+	// 原对象
 	private Class<?> targetClass;
 
     private Class<?>[] interfaces;

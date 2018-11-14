@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author yihua.huang@dianping.com
+ *通过AspectJ表达式识别切点
  */
 public class AspectJExpressionPointcut implements Pointcut, ClassFilter, MethodMatcher {
 
@@ -83,7 +83,7 @@ public class AspectJExpressionPointcut implements Pointcut, ClassFilter, MethodM
 		} else if (shadowMatch.neverMatches()) {
 			return false;
 		}
-		// TODO:其他情况不判断了！见org.springframework.aop.aspectj.RuntimeTestWalker
+		// 其他情况不判断了！见org.springframework.aop.aspectj.RuntimeTestWalker
 		return false;
 	}
 }

@@ -8,7 +8,8 @@ import us.codecraft.tinyioc.beans.factory.BeanFactory;
 import java.lang.reflect.Method;
 
 /**
- * @author yihua.huang@dianping.com
+ * 环绕通知
+ * 用AspectJ表达式匹配
  */
 public class AspectJAroundAdvice implements Advice, MethodInterceptor {
 

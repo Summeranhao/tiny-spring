@@ -1,7 +1,7 @@
 package us.codecraft.tinyioc;
 
 /**
- * @author yihua.huang@dianping.com
+ * 用于代表property标签的ref属性里的对象
  */
 public class BeanReference {
 
