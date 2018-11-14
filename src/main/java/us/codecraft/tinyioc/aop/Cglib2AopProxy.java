@@ -7,7 +7,7 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * @author yihua.huang@dianping.com
+ * @author
  */
 public class Cglib2AopProxy extends AbstractAopProxy {
 
